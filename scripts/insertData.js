@@ -4,14 +4,14 @@ import Product from '../models/Product.js';
 
 async function insertData() {
     try {
-        // Inserir usuário exemplo
+        // INSERT INTO users ...
         const user = await User.create({
             username: 'Marnei',
             email: 'marneicardoso.prof@gmail.com',
         });
         console.log(`Novo usuário criado: ${user.toJSON()}`);
 
-        // Inserir produto exemplo
+        // INSERT INTO products ...
         const product = await Product.create({
             name: 'Produto Exemplo',
             price: 29.99,

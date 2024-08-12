@@ -13,7 +13,7 @@ const Product = configDB.define('Product', {
     },
     description: {
         type: DataTypes.TEXT,
-        allowNull: true,    // NOT NULL
+        allowNull: true,    // NULL
     },
 }, {
     tableName: 'products',  // Nome da tabela
