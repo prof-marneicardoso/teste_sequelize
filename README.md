@@ -25,7 +25,7 @@
     ```
     git clone https://github.com/prof-marneicardoso/teste_sequelize.git .
     ```
-    * Note que há um *espaço* e um . (ponto) depois do lonk do repositório. Este ponto determina que será baixado apenas o conteúdo do repositório, sem criar um diretório. Se não colocar o ponto, será criado um diretório dentro do diretório criado manualmente, no passo 1: mkdir teste_sequelize
+    * Note que há um *espaço* e um . (ponto) depois do link do repositório. Este ponto determina que será baixado apenas o conteúdo do repositório, sem criar um diretório. Se não colocar o ponto, será criado um diretório dentro do diretório criado manualmente, no passo 1: mkdir teste_sequelize
 
 4. Abra o projeto no vscode.
 
