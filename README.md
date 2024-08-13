@@ -41,14 +41,3 @@
     ```
 
  * Segurança das informações: Lembre-se que as configurações do arquivo .env são dados sensíveis e devem ser alterados conforme as necessidades de cada projeto. Os dados deste projeto são genéricos, usados de forma didática como exemplo. Os dados finais do .env não devem ser enviado para o repositório, para que não fiquem expostos e qualquer pessoa que acessar o repositório possa acessar a base de dados.
-
----
-// OLD  
-// Criar o package.json   
-npm init -y
-
-// Adiciona o type para import ES   
-"type": 'module'
-
-// Instalação dos dependências   
-npm i sequelize mysql2 dotenv# teste_sequelize
